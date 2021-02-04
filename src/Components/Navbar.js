@@ -54,7 +54,7 @@ function Navbar() {
             </li>
             <li className="nav-item">
               <Link
-                to="/product"
+                to="/products"
                 className="nav-links"
                 onClick={closeMobileMenu}
               >
@@ -74,7 +74,7 @@ function Navbar() {
           {button && <Button buttonStyle="btn--outline">SIGN UP</Button>}
         </div>
       </nav>
-      <HeroSection />
+      {/* <HeroSection /> */}
     </>
   );
 }
